@@ -1,0 +1,40 @@
+body {
+  background: #d1d1d1;
+  margin: 0; 
+  bottom: 0;
+}
+
+#razd1{
+  background: #5e0101;
+  color: #d8d5d5;
+  padding: 4% 5% 2% 5%;
+  margin-top: 3.8%;
+}
+#razd2{
+  background: #027074;
+  color: #e9e9e9;
+  padding: 1% 5% 2% 5%;
+}
+#razd3{
+  background: #695f00;
+  color: #f1f1f1;
+  padding: 1% 5% 2% 5%;
+}
+#razd4{
+  background: #000f66;
+  color: #ffffff;
+  padding: 1% 5% 2% 5%;
+  margin-bottom: 50px;
+}
+
+.razd {
+  /* margin-left: 5%; */
+  padding-left: 5%;
+  line-height: 1.8em;
+}
+
+p {
+  font-size: 30px;
+  margin: 30px;
+}
+

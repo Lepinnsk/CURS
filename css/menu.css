@@ -1,0 +1,118 @@
+.bl1 {
+  position: absolute;
+  left: 28%;
+  top: 15%;
+  width: 150px;
+  height: 50px;
+  background-image: url("../src/bt1-2.png");
+  opacity: 50%;
+}
+
+.bl1:hover {
+  background-image: url("../src/bt1-1.png");
+  rotate: -3deg;
+  opacity: 100%;
+}
+
+.p1{
+  position: absolute;
+  left: 30px;
+  top: -5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* ----2----- */
+.bl2 {
+  position: absolute;
+  left: 39%;
+  top: 15%;
+  width: 150px;
+  height: 50px;
+  background-image: url("../src/bt2-1.png");
+  opacity: 50%;
+}
+
+.bl2:hover {
+  background-image: url("../src/bt2-2.png");
+  rotate: -3deg;
+  opacity: 100%;
+}
+
+.p2{
+  position: absolute;
+  left: 14px;
+  line-height: 16px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* ----3----- */
+.bl3 {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: 150px;
+  height: 50px;
+  background-image: url("../src/bt3-1.png");
+  opacity: 50%;
+}
+
+.bl3:hover {
+  background-image: url("../src/bt3-2.png");
+  rotate: -3deg;
+  opacity: 100%;
+}
+
+.p3{
+  position: absolute;
+  left: 30px;
+  top: -2px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* ----4----- */
+.bl4 {
+  position: absolute;
+  left: 61%;
+  top: 15%;
+  width: 150px;
+  height: 50px;
+  background-image: url("../src/bt4-2.png");
+  opacity: 50%;
+}
+
+.bl4:hover {
+  background-image: url("../src/bt4-1.png");
+  rotate: -3deg;
+  opacity: 100%;
+}
+
+.p4{
+  position: absolute;
+  left: 30px;
+  top: -5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+  .bl1 {
+    left: 70%;
+    top: 6%;
+  }
+  .bl2 {
+    left: 70%;
+    top: 13%;
+  }
+  .bl3 {
+    left: 70%;
+    top: 20%;
+  }
+  .bl4 {
+    left: 70%;
+    top: 27%;
+  }
+
+}
